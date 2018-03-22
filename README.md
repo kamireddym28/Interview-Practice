@@ -16,5 +16,15 @@ I recently built a very interesting app of Smartphone Catalog as a part of my na
 
 To build this web application, I used python’s Flask frame work at the back-end to perform CRUD operations and learnt to implement RESTful APIs that serves JSON outputs.  In the front-end, HTML Jinga2 web template and CSS were used to deal with the aesthetics of the application. Through out its implementation, I got better exposure to using flask frame work. I used to google to know more about SQLAlchemy and various other libraries that flask supports. I also learnt the ways to debug errors. I found it little more challenging to implement OAUTH using google sign in. I overcame this by going through the lesson multiple times and with detailed understanding of concepts in bits and pieces, I was able to accomplish the task.
 
+## Question 3:
+
+**3.	Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list (< ul > ... < /ul >) of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?**
+
+def  uo_list(strings):
+	list1 += "<ul>"
+	for i in strings:
+		list1 += "<li>"+ i +"</li>"
+	list1 += "</ul>"
+	return list1
 
 
