@@ -20,7 +20,7 @@ To build this web application, I used python’s Flask frame work at the back-en
 
 **3.	Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list (< ul > ... < /ul >) of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?**
 
-'''
+```
 
 def  uo_list(strings):
 	list1 += "<ul>"
@@ -29,5 +29,5 @@ def  uo_list(strings):
 	list1 += "</ul>"
 	return list1
 	
-'''
+```
 
