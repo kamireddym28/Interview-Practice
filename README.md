@@ -2,7 +2,7 @@
 
 ## Qusestion 1:
 
-**1.	What is the most influential book or blog post you’ve read regarding web development?**
+**What is the most influential book or blog post you’ve read regarding web development?**
 
 Earlier when I started with web development, as a part of self-learning, I found this website called _w3schools.com_ very much helpful to understand basic concepts. This website provides an opportunity to gain hands on experience while learning which influenced me to dig deep into the topics of web development. 
 
@@ -10,7 +10,7 @@ In recent times, I started following _David Walsh’s_ blog interesting as it sh
 
 ## Question 2:
 
-**2.	Tell me about a web application you have built. Why did you choose to build it? What did you learn? What challenges did you face and how did you overcome them?**
+**Tell me about a web application you have built. Why did you choose to build it? What did you learn? What challenges did you face and how did you overcome them?**
 
 I recently built a very interesting app of Smartphone Catalog as a part of my nanodegree program. It is an app that holds various models of smartphones available in the market along with their respective specifications and price. Users have an option to login to the app to add any new categories launched into the market and edit or delete them if needed.
 
@@ -18,7 +18,7 @@ To build this web application, I used python’s Flask frame work at the back-en
 
 ## Question 3:
 
-**3.	Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list (< ul > ... < /ul >) of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?**
+**Write a function in Python that takes a list of strings and returns a single string that is an HTML unordered list (< ul > ... < /ul >) of those strings. You should include a brief explanation of your code. Then, what would you have to consider if the original list was provided by user input?**
 
 ```
 
@@ -40,7 +40,7 @@ def  uo_list(strings):
 
 ## Question 4
 
-**4.	List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?**
+**List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?**
 
 Common attacks that websites are vulnerable to are:
 
@@ -74,7 +74,12 @@ def rollDiceJSON():
 
 if __name__ == '__main__':
     app.debug = True
-    app.run()
-    
+    app.run()    
 ```
 - Rolling a dice results a value between 1 and 6. This can be obtained by using randint() imported from random in python. The outcome of each dice is stored in two variables respectively. The total outcome is the sum of the outcome of individual dice. This value is returned as a JSON object using python flask’s ‘jsonify’.
+
+## Question 6
+
+**If you were to start your full-stack developer position today, what would be your goals a year from now?**
+
+If I am hired as a full-stack developer, a year from now I would master python’s flask frame work and will target to host the web applications I built using AWS. I will master React JS frame work on the front-end part. I will be looking forward to performing challenging tasks with the skills I learnt over the past year. I will contribute to team in delivering the project with accuracy and efficiency.
