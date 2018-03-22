@@ -83,3 +83,6 @@ if __name__ == '__main__':
 **If you were to start your full-stack developer position today, what would be your goals a year from now?**
 
 If I am hired as a full-stack developer, a year from now I would master python’s flask frame work and will target to host the web applications I built using AWS. I will master React JS frame work on the front-end part. I will be looking forward to performing challenging tasks with the skills I learnt over the past year. I will contribute to team in delivering the project with accuracy and efficiency.
+
+## Reference
+- [Common web application attacks](https://blog.sucuri.net/2014/11/most-common-attacks-affecting-todays-websites.html)
