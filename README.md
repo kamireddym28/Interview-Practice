@@ -35,5 +35,5 @@ def  uo_list(strings):
      return list1
 	
 ```
-This is a function of unordered list items which iterates over the parsed in list items using for loop and returns the unordered list output. 
-If the original list was provided by the user, the function should check whether the input is a list and it has list items that are strings.
+- This is a function of unordered list items which iterates over the parsed in list items using for loop and returns the unordered list output. 
+- If the original list was provided by the user, the function should check whether the input is a list and it has list items that are strings.
