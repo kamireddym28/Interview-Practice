@@ -23,11 +23,17 @@ To build this web application, I used python’s Flask frame work at the back-en
 ```
 
 def  uo_list(strings):
-	list1 += "<ul>"
-	for i in strings:
-		list1 += "<li>"+ i +"</li>"
-	list1 += "</ul>"
-	return list1
+     # Initialize a list with <ul> tag
+     list1 += "<ul>"
+     # Iterate over the parsed in strings
+     for i in strings:
+     	# append each list item in strings to list1 
+	list1 += "<li>"+ i +"</li>"
+     # append closing <ul> tag to the list1
+     list1 += "</ul>"
+     # return the unordered list
+     return list1
 	
 ```
-
+This is a function of unordered list items which iterates over the parsed in list items using for loop and returns the unordered list output. 
+If the original list was provided by the user, the function should check whether the input is a list and it has list items that are strings.
