@@ -49,3 +49,32 @@ Common attacks that websites are vulnerable to are:
 - SQL Injection attack: This is a type of attack in which user injects SQL code into input fields to make malicious use of data in the database. This can be avoided by using pre-built functions to perform SQL queries rather than generating entire SQL query based on user input. Limiting database privileges to users to perform actions on database.
 
 - Brute force attack: This is an attack to gain access to password protected content. This can be prevented by configuring a robust firewall that can monitor the traffic and identify potential attacks.
+
+## Question 5
+
+**Expand on that and include a route that simulates rolling two dice and returns the result in JSON. You should include a brief explanation of your code.**
+
+```
+from flask import Flask, jsonify 
+import json
+import random
+
+app = Flask(__name__)
+
+@app.route('/’)
+def hello_world():
+    return ‘Hello World!’
+
+@app.route('/rolldice/JSON')
+def rollDiceJSON():
+    d1 = random.randint(1,6)
+    d2 = random.randint(1,6)
+    die_total = d1 + d2
+    return jsonify(d1=d1, d2=d2, die_total=die_total)
+
+if __name__ == '__main__':
+    app.debug = True
+    app.run()
+    
+```
+- Rolling a dice results a value between 1 and 6. This can be obtained by using randint() imported from random in python. The outcome of each dice is stored in two variables respectively. The total outcome is the sum of the outcome of individual dice. This value is returned as a JSON object using python flask’s ‘jsonify’.
