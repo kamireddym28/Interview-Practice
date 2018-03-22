@@ -37,3 +37,15 @@ def  uo_list(strings):
 ```
 - This is a function of unordered list items which iterates over the parsed in list items using for loop and returns the unordered list output. 
 - If the original list was provided by the user, the function should check whether the input is a list and it has list items that are strings.
+
+## Question 4
+
+**4.	List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?**
+
+Common attacks that websites are vulnerable to are:
+
+- Cross Site Request Forgery: A cross site request forgery or XSRF attack occurs when information stored in cookies in a browser are used to perform unauthorized HTTP requests. Link leading to download of an in appropriate files is an example of XSRF attack. This attack can be prevented by generating an access token that matches the user server’s token to process the request. Implementing CAPTCHA on some websites is a method to ensure prevention of XSRF attack. 
+
+- SQL Injection attack: This is a type of attack in which user injects SQL code into input fields to make malicious use of data in the database. This can be avoided by using pre-built functions to perform SQL queries rather than generating entire SQL query based on user input. Limiting database privileges to users to perform actions on database.
+
+- Brute force attack: This is an attack to gain access to password protected content. This can be prevented by configuring a robust firewall that can monitor the traffic and identify potential attacks.
